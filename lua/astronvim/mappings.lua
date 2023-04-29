@@ -18,6 +18,15 @@ local sections = {
 }
 if not vim.g.icons_enabled then vim.tbl_map(function(opts) opts.desc = opts.desc:gsub("^.* ", "") end, sections) end
 
+-- Wycliff Added Key Mappings --
+local M = {}
+M.general = {
+  i = {
+     -- Map jj to Escape key
+     ["jj"] = { "<ESC>", "fast escape" },
+  },
+}
+
 -- Normal --
 -- Standard Operations
 maps.n["j"] = { "v:count == 0 || mode(1)[0:1] == 'no' ? 'j' : 'gj'", expr = true, desc = "Move cursor down" }
