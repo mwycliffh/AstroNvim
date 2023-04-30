@@ -36,7 +36,7 @@ return {
   { "nvim-tree/nvim-web-devicons", commit = "4ec26d67d419c12a4abaea02f1b6c57b40c08d7e" },
   { "nvim-treesitter/nvim-treesitter", commit = "2ce3c9080cfe4a39c7907e672edafd2a95244a7c" },
   { "onsails/lspkind.nvim", commit = "c68b3a003483cf382428a43035079f78474cd11e" },
-  { "mwycliffh/friendly-snippets", commit = "25cf46f986563ee387937a0eb99f4f2eea976618" },
+  { "mwycliffh/friendly-snippets", commit = "7992af1907385d2a3f73dc7ef363621642a17669" },
   { "rcarriga/nvim-dap-ui", version = "^3" },
   { "rcarriga/nvim-notify", version = "^3" },
   { "rebelot/heirline.nvim", commit = "2aed06a3a04c877dc64834e9b9dabf6ad3491bc8" },
