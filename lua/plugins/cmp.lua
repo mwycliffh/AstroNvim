@@ -1,7 +1,7 @@
 return {
   {
     "L3MON4D3/LuaSnip",
-    dependencies = { "rafamadriz/friendly-snippets" },
+    dependencies = { "mwycliffh/friendly-snippets" },
     config = require "plugins.configs.luasnip",
   },
   {
