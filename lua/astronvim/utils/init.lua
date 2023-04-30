@@ -10,6 +10,11 @@
 
 local M = {}
 
+-- Wycliff Addendum
+vim.opt.signcolumn = "yes"
+vim.opt.colorcolumn = "79"
+-- vim.opt.guicursor = "v-c-sm:block,n-i-ci-ve:ver25,r-cr-o:hor20"
+
 --- Merge extended options with a default table of options
 ---@param default? table The default table that you want to merge into
 ---@param opts? table The new options that should be merged with the default table
@@ -283,3 +288,4 @@ function M.cmd(cmd, show_error)
 end
 
 return M
+
