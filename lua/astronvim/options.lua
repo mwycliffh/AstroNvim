@@ -9,7 +9,7 @@ local options = astronvim.user_opts("options", {
     breakindent = true, -- Wrap indent to match  line start
     clipboard = "unnamedplus", -- Connection to the system clipboard
     cmdheight = 0, -- hide command line unless needed
-    completeopt = { "menuone", "noselect" }, -- Options for insert mode completion
+    completeopt = { "menu", "menuone", "noselect" }, -- Options for insert mode completion
     copyindent = true, -- Copy the previous indentation on autoindenting
     cursorline = true, -- Highlight the text line of the cursor
     expandtab = true, -- Enable the use of space in tab
@@ -38,7 +38,6 @@ local options = astronvim.user_opts("options", {
     smartcase = true, -- Case sensitivie searching
     smartindent = true, -- Smarter autoindentation
     splitbelow = true, -- Splitting a new window below the current one
-    splitkeep = vim.fn.has "nvim-0.9" == 1 and "screen" or nil, -- Maintain code view when splitting
     splitright = true, -- Splitting a new window at the right of the current one
     tabstop = 2, -- Number of space in a tab
     termguicolors = true, -- Enable 24-bit RGB color in the TUI
