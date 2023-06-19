@@ -19,11 +19,12 @@ return {
       },
     },
     default_component_configs = {
-      indent = { padding = 0, indent_size = 1 },
+      indent = { padding = 0 },
       icon = {
         folder_closed = get_icon "FolderClosed",
         folder_open = get_icon "FolderOpen",
         folder_empty = get_icon "FolderEmpty",
+        folder_empty_open = get_icon "FolderEmpty",
         default = get_icon "DefaultFile",
       },
       modified = { symbol = get_icon "FileModified" },
